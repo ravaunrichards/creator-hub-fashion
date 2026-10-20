@@ -1,0 +1,17 @@
+{
+  "name": "creator-hub-fashion",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A responsive fashion commerce platform with a persistent SQLite backend.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check public/app.js && node --check tests/store.test.js",
+    "make-admin": "node server.js make-admin"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
